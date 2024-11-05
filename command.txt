@@ -1,0 +1,67 @@
+1_ЗАДАНИЕ: 
+ 0|1&1^1&!0  || выдает код : 0
+ 0 | 1 & 1 ^ 1 & !0  || выдает код : 0
+ 1&1|0|1^1&0^!0&!1  || выдает код : 1
+ 1 | 0 | 1 ^ 0 ^ 0  || выдает код : 1
+
+2_ЗАДАНИЕ
+ ./2_tasks_of_2_lab --file file.set --query 'SETADD set dsfdsf123' 
+ ./2_tasks_of_2_lab --file file.set --query 'SETADD set 4567890' 
+ ./2_tasks_of_2_lab --file file.set --query 'SETADD set 123432' 
+ ./2_tasks_of_2_lab --file file.set --query 'SETADD set dsfdsf123' 
+
+ ./2_tasks_of_2_lab --file file.set --query 'SETDEL set 123432' 
+ ./2_tasks_of_2_lab --file file.set --query 'SETDEL set dsfdsf123' 
+
+ ./2_tasks_of_2_lab --file file.set --query 'SETAT set 4567890' 
+ ./2_tasks_of_2_lab --file file.set --query 'SPRINT set' 
+ 
+
+
+ ./2_tasks_of_2_lab --file file.set --query 'SETADD myset dsfdsf123' 
+ ./2_tasks_of_2_lab --file file.set --query 'SETADD myset 4567890' 
+ ./2_tasks_of_2_lab --file file.set --query 'SETADD myset 123432' 
+ ./2_tasks_of_2_lab --file file.set --query 'SETADD myset dsfdsf123' 
+
+ ./2_tasks_of_2_lab --file file.set --query 'SETDEL myset 123432' 
+ ./2_tasks_of_2_lab --file file.set --query 'SETDEL myset dsfdsf123' 
+
+ ./2_tasks_of_2_lab --file file.set --query 'SETAT myset 4567890' 
+ ./2_tasks_of_2_lab --file file.set --query 'SPRINT myset 
+
+3_ЗАДАНИЕ
+ABBACAB
+BCABB
+
+4_ЗАДАНИЕ
+4
+cAnnot
+cannOt
+fOund
+pAge
+The PAGE cannot be found
+
+4
+cAnnot
+cannOt
+fOund
+pAge
+thE pAge cAnnot be found
+( ошибка : be found )
+
+5_ЗАДАНИЕ
+9
+
+124
+432
+12 
+1 
+24 
+565
+765 
+346 
+3
+
+6_ЗАДАНИЕ
+abcabcbb
+zxcvbnmnbvcxasdfghjlkjhgfertyuioiuytr
