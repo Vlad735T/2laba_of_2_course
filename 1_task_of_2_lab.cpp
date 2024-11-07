@@ -12,10 +12,10 @@ uint8_t priority(char c) {
 uint8_t realize_operators(uint8_t a, uint8_t b, char oper) {
 
     switch (oper) {
-    case '&': return a & b;
-    case '|': return a | b;
-    case '^': return a ^ b;
-    default: throw invalid_argument("Invalid operator");
+        case '&': return a & b;
+        case '|': return a | b;
+        case '^': return a ^ b;
+        default: throw invalid_argument("Invalid operator");
     }
 }
 
